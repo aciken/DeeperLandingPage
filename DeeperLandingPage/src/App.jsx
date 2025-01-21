@@ -1,4 +1,4 @@
-import appScreenshot from './assets/DeeperScreen.png'
+import appScreenshot from './assets/deeperScreen.png'
 import appleBadge from './assets/appleLogo.png'
 import googleBadge from './assets/GoogleLogo.png'
 
