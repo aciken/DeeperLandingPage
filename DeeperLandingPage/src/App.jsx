@@ -1,6 +1,6 @@
 import appScreenshot from './assets/deeperScreen.png'
 import appleBadge from './assets/appleLogo.png'
-import googleBadge from './assets/googleLogo.png'
+import googleBadge from './assets/GoogleLogo.png'
 
 function App() {
   const scrollToDownload = () => {
