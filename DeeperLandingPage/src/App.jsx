@@ -1,6 +1,7 @@
 import appScreenshot from './assets/deeperScreen.png'
 import appleBadge from './assets/appleLogo.png'
 import googleBadge from './assets/GoogleLogo.png'
+import { Link } from 'react-router-dom'
 
 function App() {
   const scrollToDownload = () => {
@@ -138,11 +139,11 @@ function App() {
         <footer className="container mx-auto px-4 sm:px-6 py-8 border-t border-white/[0.05]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-gray-500 order-2 md:order-1 font-light text-center md:text-left">
-              © 2024 Deeper - Focus & Deep Work Timer
+              © 2025 Deeper - Work with Depth
             </div>
             <div className="flex space-x-6 sm:space-x-8 text-sm text-gray-500 order-1 md:order-2 font-light">
-              <a href="#" className="hover:text-white transition-colors">Support</a>
-              <a href="#" className="hover:text-white transition-colors">Privacy & Terms</a>
+              <Link to="/support" className="hover:text-white transition-colors">Support</Link>
+              <Link to="/privacy" className="hover:text-white transition-colors">Privacy & Terms</Link>
             </div>
           </div>
         </footer>
