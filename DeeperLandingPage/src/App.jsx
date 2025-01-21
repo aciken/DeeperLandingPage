@@ -59,16 +59,12 @@ function App() {
             <div className="inline-flex flex-col sm:flex-row bg-white/[0.02] backdrop-blur-3xl rounded-2xl border border-white/[0.05] px-8 sm:px-12 py-6 sm:py-8 mb-16 sm:mb-24">
               <div className="flex flex-col sm:flex-row justify-center items-center divide-y sm:divide-y-0 sm:divide-x divide-white/[0.05]">
                 <div className="text-center px-8 sm:px-12 py-4 sm:py-0">
-                  <div className="text-deeper-blue text-3xl font-bold mb-2">2.5hr</div>
+                  <div className="text-deeper-blue text-3xl font-bold mb-2">4.5hr</div>
                   <div className="text-gray-400 text-sm font-light">Avg. daily focus</div>
                 </div>
                 <div className="text-center px-8 sm:px-12 py-4 sm:py-0">
                   <div className="text-deeper-blue text-3xl font-bold mb-2">87%</div>
                   <div className="text-gray-400 text-sm font-light">Productivity boost</div>
-                </div>
-                <div className="text-center px-8 sm:px-12 py-4 sm:py-0">
-                  <div className="text-deeper-blue text-3xl font-bold mb-2">50K+</div>
-                  <div className="text-gray-400 text-sm font-light">Active users</div>
                 </div>
               </div>
             </div>
