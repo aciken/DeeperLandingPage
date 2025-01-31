@@ -139,7 +139,8 @@ function App() {
             </div>
             <div className="flex space-x-6 sm:space-x-8 text-sm text-gray-500 order-1 md:order-2 font-light">
               <Link to="/support" className="hover:text-white transition-colors">Support</Link>
-              <Link to="/privacy" className="hover:text-white transition-colors">Privacy & Terms</Link>
+              <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+              <Link to="/terms-of-use" className="hover:text-white transition-colors">Terms of Use</Link>
             </div>
           </div>
         </footer>
