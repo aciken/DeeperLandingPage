@@ -18,73 +18,49 @@ function Privacy() {
         {/* Privacy Content */}
         <main className="container mx-auto px-4 sm:px-6 pt-12 sm:pt-24 pb-20">
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-4xl font-bold mb-12 text-center">Privacy & Terms</h1>
-            
-            <div className="space-y-12">
-              {/* Privacy Policy Section */}
-              <section className="bg-white/[0.02] backdrop-blur-3xl rounded-2xl border border-white/[0.05] p-8">
-                <h2 className="text-2xl font-semibold mb-6 text-deeper-blue">Privacy Policy</h2>
-                <div className="space-y-4 text-gray-400">
-                  <p>
-                    Your privacy is important to us. It is Deeper's policy to respect your privacy regarding any information we may collect from you through our app.
-                  </p>
-                  <p>
-                    We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent.
-                  </p>
-                  <p>
-                    We don't share any personally identifying information publicly or with third-parties, except when required to by law.
-                  </p>
-                  <p>
-                    Our app may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
-                  </p>
-                </div>
-              </section>
+            <div className="bg-white/[0.02] backdrop-blur-3xl rounded-2xl border border-white/[0.05] p-8 sm:p-12">
+              <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
+              <p className="text-gray-400 mb-8">Last updated: January 31, 2025</p>
 
-              {/* Terms of Service Section */}
-              <section className="bg-white/[0.02] backdrop-blur-3xl rounded-2xl border border-white/[0.05] p-8">
-                <h2 className="text-2xl font-semibold mb-6 text-deeper-blue">Terms of Service</h2>
-                <div className="space-y-4 text-gray-400">
-                  <p>
-                    By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app.
-                  </p>
-                  <p>
-                    You're not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You're not allowed to attempt to extract the source code of the app, and you also shouldn't try to translate the app into other languages or make derivative versions.
-                  </p>
-                  <p>
-                    The app itself, and all the trademarks, copyright, database rights, and other intellectual property rights related to it, still belong to Deeper.
-                  </p>
-                  <p>
-                    Deeper is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason.
-                  </p>
-                </div>
-              </section>
-
-              {/* Data Storage Section */}
-              <section className="bg-white/[0.02] backdrop-blur-3xl rounded-2xl border border-white/[0.05] p-8">
-                <h2 className="text-2xl font-semibold mb-6 text-deeper-blue">Data Storage</h2>
-                <div className="space-y-4 text-gray-400">
-                  <p>
-                    The app does use third-party services that declare their Terms and Conditions. You should be aware that there are certain things that Deeper will not take responsibility for.
-                  </p>
-                  <p>
-                    Your data is stored locally on your device and synced with our secure servers to provide backup and cross-device functionality. We implement industry-standard security measures to protect your information.
-                  </p>
-                </div>
-              </section>
-
-              {/* Contact Section */}
-              <section className="bg-white/[0.02] backdrop-blur-3xl rounded-2xl border border-white/[0.05] p-8">
-                <h2 className="text-2xl font-semibold mb-6 text-deeper-blue">Contact Us</h2>
-                <p className="text-gray-400">
-                  If you have any questions about these Terms or Privacy Policy, please contact us at:{' '}
-                  <a 
-                    href="mailto:martonadriansaas@gmail.com"
-                    className="text-deeper-blue hover:text-blue-400 transition-colors"
-                  >
-                    martonadriansaas@gmail.com
-                  </a>
+              <div className="space-y-8 text-gray-400">
+                <p>
+                  This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
                 </p>
-              </section>
+                
+                <p>
+                  We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+                </p>
+
+                <h2 className="text-2xl font-semibold text-deeper-blue mt-12 mb-6">Interpretation and Definitions</h2>
+                
+                <h3 className="text-xl font-semibold text-white mb-4">Interpretation</h3>
+                <p>
+                  The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+                </p>
+
+                <h3 className="text-xl font-semibold text-white mb-4">Definitions</h3>
+                <p>For the purposes of this Privacy Policy:</p>
+                <ul className="list-disc pl-6 space-y-4">
+                  <li><strong className="text-white">Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
+                  <li><strong className="text-white">Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
+                  <li><strong className="text-white">Application</strong> refers to Deeper, the software program provided by the Company.</li>
+                  <li><strong className="text-white">Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Deeper.</li>
+                  <li><strong className="text-white">Country</strong> refers to: Serbia</li>
+                  <li><strong className="text-white">Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
+                  <li><strong className="text-white">Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
+                  <li><strong className="text-white">Service</strong> refers to the Application.</li>
+                  <li><strong className="text-white">Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</li>
+                  <li><strong className="text-white">Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</li>
+                  <li><strong className="text-white">You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+                </ul>
+
+                <h2 className="text-2xl font-semibold text-deeper-blue mt-12 mb-6">Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>By email: <a href="mailto:adrian@deepersoftware.com" className="text-deeper-blue hover:text-blue-400 transition-colors">adrian@deepersoftware.com</a></li>
+                  <li>By visiting this page on our website: <a href="https://www.deepersoftware.com/support" className="text-deeper-blue hover:text-blue-400 transition-colors">https://www.deepersoftware.com/support</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </main>

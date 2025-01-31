@@ -26,7 +26,7 @@ function Support() {
               </p>
               
               <a 
-                href="mailto:martonadriansaas@gmail.com"
+                href="mailto:adrian@deepersoftware.com"
                 className="group relative inline-flex items-center space-x-4 px-6 py-3 rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(0,102,255,0.3)]"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-deeper-blue to-blue-500 opacity-20 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -35,7 +35,7 @@ function Support() {
                 <div className="absolute inset-0 border border-white/10 rounded-xl group-hover:border-white/20 transition-colors"></div>
                 
                 <span className="relative text-white font-medium">
-                  martonadriansaas@gmail.com
+                  adrian@deepersoftware.com
                 </span>
               </a>
 
